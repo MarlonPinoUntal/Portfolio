@@ -6,13 +6,14 @@
   box-sizing: border-box;
   text-decoration: none;
 }
-html{
-  scroll-behavior: smooth;
-}
 .max-width {
   max-width: 1300px;
   padding: 0 80px;
   margin: auto;
+}
+section {
+  scroll-behavior: smooth;
+  transition: .7s ease-in-out;
 }
 
 /* Navbar Styling */
@@ -103,7 +104,7 @@ html{
 
 .home {
   display: flex;
-  background: url("images/wews.jpg") no-repeat center;
+  background: url("../images/wews.jpg") no-repeat center;
   background-size: cover;
   height: 100vh;
   color: white;
