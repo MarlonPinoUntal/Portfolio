@@ -16,8 +16,8 @@ section {
   transition: .7s ease-in-out;
 }
 
-/* Navbar Styling */
 
+/* Navbar Styling */
 .navbar {
   position: fixed;
   width: 100%;
@@ -100,8 +100,9 @@ section {
   opacity: 1;
   pointer-events: auto;
 }
-/* Home Section Styling */
 
+
+/* Home Section Styling */
 .home {
   display: flex;
   background: url("../images/wews.jpg") no-repeat center;
@@ -150,6 +151,8 @@ section {
   color: crimson;
   background: none;
 }
+
+
 /* Similar styling code */
 .about,
 .mywork,
@@ -200,8 +203,9 @@ section .title::after {
   background: white;
   transform: translateX(-50%);
 }
-/* About Section Stylying */
 
+
+/* About Section Stylying */
 .about .title::after {
   content: "Who I am";
 }
@@ -245,6 +249,8 @@ section .title::after {
   color: crimson;
   background: none;
 }
+
+
 /* My work section styling */
 .mywork {
   color: white;
@@ -288,6 +294,7 @@ section .title::after {
   font-weight: 500;
   margin: 10px 0 7px 0;
 }
+
 
 /* Skills section styling */
 .skills .title::after {
@@ -362,6 +369,7 @@ section .title::after {
 .skills-content .right .excel::before {
   width: 50%;
 }
+
 
 /* Contact section stylying */
 .contact .title::after {
@@ -456,10 +464,12 @@ section .title::after {
   background: none;
 
 }
+
+
 /* footer section stylying */
 footer{
   background: black;
-  padding: 20px 23px;
+  padding: 15px 20px;
   color: white;
   text-align: right;
 }
@@ -467,7 +477,6 @@ footer span a{
   color: crimson;
   text-decoration: none;
 }
-
 footer span a:hover{
   text-decoration: underline;
 }
