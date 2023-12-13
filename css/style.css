@@ -467,6 +467,7 @@ footer span a{
   color: crimson;
   text-decoration: none;
 }
+
 footer span a:hover{
   text-decoration: underline;
 }
